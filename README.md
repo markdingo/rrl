@@ -153,7 +153,7 @@ truncated responses thus the `makeTruncatedIfAble` function needs some intellige
 `rrl` requires [go](https://golang.org) version 1.19 or later.
 
 Once your application imports `"github.com/markdingo/rrl"`, then `"go build"` or `"go mod
-tidy"` should download and compile the `rrl` package automatically.
+tidy"` in your application directory should download and compile `rrl` automatically.
 
 ## Further Reading
 
