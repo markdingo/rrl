@@ -44,7 +44,7 @@ A big "thank you" to them.)
 ### Project Status
 
 [![Build Status](https://github.com/markdingo/rrl/actions/workflows/go.yml/badge.svg)](https://github.com/markdingo/rrl/actions/workflows/go.yml)
-[![codecov](https://codecov.io/gh/markdingo/rrl/branch/main/graph/badge.svg?token=211OVOI2AV)](https://codecov.io/gh/markdingo/rrl)
+[![codecov](https://codecov.io/gh/markdingo/rrl/branch/main/graph/badge.svg)](https://codecov.io/gh/markdingo/rrl)
 [![CodeQL](https://github.com/markdingo/rrl/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/markdingo/rrl/actions/workflows/codeql-analysis.yml)
 [![Go Report Card](https://goreportcard.com/badge/github.com/markdingo/rrl)](https://goreportcard.com/report/github.com/markdingo/rrl)
 [![Go Reference](https://pkg.go.dev/badge/github.com/markdingo/rrl.svg)](https://pkg.go.dev/github.com/markdingo/rrl)
