@@ -30,7 +30,7 @@ func TestConfigDefault(t *testing.T) {
 		t.Error("Finalized zero Config is", got, "but expected", exp)
 	}
 
-	// Change one value just to ensure it propogates thru finalize
+	// Change one value just to ensure it propagates thru finalize
 	cfg.SetValue("responses-per-second", "7")
 	r = rrl.NewRRL(cfg)
 	got = cfg.String()

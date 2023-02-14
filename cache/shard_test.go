@@ -83,7 +83,7 @@ func TestShardUpdateAdd(t *testing.T) {
 	}
 	i := (el).(*int)
 	if *i != 1 {
-		t.Fatalf("expected to see inital valie of 1, got %v", i)
+		t.Fatalf("expected to see initial value of 1, got %v", i)
 	}
 
 	// second call should increment the value, and return it

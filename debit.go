@@ -229,7 +229,7 @@ func (rrl *RRL) Debit(src net.Addr, tuple *ResponseTuple) (act Action, ipr IPRea
 	}
 
 	// RRL on query only applies to udp. All other transports are assumed to be
-	// resistent to source address spoofing. Filter on all types of udp, such as udp,
+	// resistant to source address spoofing. Filter on all types of udp, such as udp,
 	// udp4 & udp6.
 	if !strings.HasPrefix(src.Network(), "udp") {
 		rtr = RTNotUDP
