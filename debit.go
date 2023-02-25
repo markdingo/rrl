@@ -204,8 +204,9 @@ func (rrl *RRL) Debit(src net.Addr, tuple *ResponseTuple) (act Action, ipr IPRea
 	ipr = IPNotConfigured
 	rtr = RTNotReached
 
-	// Must use pointers to return values as defer takes a copy of the arguments.
-	// This is common knowledge, but easily forgotten.
+	// Must use pointers to return values as otherwise defer takes a copy of the
+	// values at the defer call site, which is as they are now rather than at the end
+	// of the function. This is common knowledge, but easily forgotten.
 
 	defer rrl.incrementDebitStats(&act, &ipr, &rtr, tuple.AllowanceCategory)
 
