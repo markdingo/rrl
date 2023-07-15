@@ -115,7 +115,7 @@ convey intent and outcome.
 
       server:= dnsListenSocket()
       db := myDatabase()
-          
+
       cfg := rrl.NewConfig()
       cfg.SetValue(...)             // Configure limits relevant to our deployment
       R := NewRRL(cfg)              // Create our `rrl` instance
